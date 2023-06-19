@@ -8,7 +8,7 @@ The code solves the problem having the following energy function:
  U \left( J^e \right) = \dfrac{1}{2} \kappa \left(\dfrac{1}{2}\left({J^e}^2 -1 \right) - ln J^e \right)
 ```
 ```math
-\bar{W}\left(\bar{b}^e\right) = \mu_1 \left(tr \left[\bar{b}^e\right] -3 \right) +\dfrac{1}{2} \mu_2 \left(tr \left[\bar{b}^e\right] -3 \right)^2
+\bar{W}\left(\bar{\textbf{b}}^e\right) = \mu_1 \left(tr \left[\bar{\textbf{b}}^e\right] -3 \right) +\dfrac{1}{2} \mu_2 \left(tr \left[\bar{\textbf{b}}^e\right] -3 \right)^2
 ```
 
 ## Instructions
