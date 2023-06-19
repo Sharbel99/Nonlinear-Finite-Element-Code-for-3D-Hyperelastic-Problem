@@ -4,4 +4,16 @@ Two cases are presented: tension and shear. Various stress, strain, tangent comp
 
 ## Description of the problem
 The code solves the problem having the following energy function: 
-$ U \left( J^e \right) = \dfrac{1}{2} \kappa $
+```math
+ U \left( J^e \right) = \dfrac{1}{2} \kappa \left(\dfrac{1}{2}\left({J^e}^2 -1 \right) - ln J^e \right)
+```
+```math
+\bar{W}\left(\bar{b}^e\right) = \mu_1 \left(tr \left[\bar{b}^e\right] -3 \right) +\dfrac{1}{2} \mu_2 \left(tr \left[\bar{b}^e\right] -3 \right)^2
+```
+
+## Instructions
+First run the input file (Input_tension.m or Input_shear.m) then run FEA_Program.m
+
+To edit the code to run a different energy functional, edit the parameters in the input file, and edit the residual and tangent in Elast3d_Elem.m
+
+To change the plots, edit FEA_Program.m
