@@ -17,3 +17,6 @@ First run the input file (Input_tension.m or Input_shear.m) then run FEA_Program
 To edit the code to run a different energy functional, edit the parameters in the input file, and edit the residual and tangent in Elast3d_Elem.m
 
 To change the plots, edit FEA_Program.m
+
+## Reference
+Simo, J. C., & Hughes, T. J. (2006). Computational inelasticity (Vol. 7). Springer Science & Business Media.
