@@ -19,4 +19,4 @@ To edit the code to run a different energy functional, edit the parameters in th
 To change the plots, edit FEA_Program.m
 
 ## Reference
-Simo, J. C., & Hughes, T. J. (2006). Computational inelasticity (Vol. 7). Springer Science & Business Media.
+Hughes, T. J. (2012). The finite element method: linear static and dynamic finite element analysis. Courier Corporation.
